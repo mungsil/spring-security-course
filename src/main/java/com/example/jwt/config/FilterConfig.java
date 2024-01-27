@@ -1,5 +1,6 @@
-package com.example.jwt.filter;
+package com.example.jwt.config;
 
+import com.example.jwt.filter.MyFilter2;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

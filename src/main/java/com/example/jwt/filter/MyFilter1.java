@@ -7,8 +7,8 @@ import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
-//스프링 시큐리티 필터를 모두 거치고 난 후에 실행됨
-@Component
+
+//@Component
 public class MyFilter1 implements Filter {
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {

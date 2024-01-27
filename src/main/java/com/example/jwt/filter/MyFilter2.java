@@ -4,7 +4,7 @@ import jakarta.servlet.*;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
-
+//스프링 시큐리티 필터를 모두 거치고 난 후에 실행됨
 @Component
 public class MyFilter2 implements Filter {
     @Override
